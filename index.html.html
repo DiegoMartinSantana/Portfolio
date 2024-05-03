@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico">
+    <title>Portfolio Diego Santana</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="body.css">
+
+</head>
+
+<style>
+   
+</style>
+
+<body>
+    <header>
+        <nav>
+            <a href="#boxcursos">Conocimentos</a>
+            <a href="#boxproyectos">Proyectos</a>
+            <a href="#boxfooter">Contacto</a>
+        </nav>
+    </header>
+    <section class="boxpresentacion" id="presentacion">
+        <div class="centrado"> <!-- display flex para que se vea a la izquierda la img no SACAR-->
+            <img class="perfilFoto" src="perfil.jpg" alt="Diego Santana ">            
+            <div style="flex : 1">  
+            <h1>Diego Santana </h1>
+                   <p class="presentacion">
+                      Hola! Soy Diego Santana, Desarrollador Back-End.
+                   </p>
+            </div>
+        </div>     
+    </section>
+
+    <section class="boxcursos" id="boxcursos">
+       
+        <h2>Perfil</h2>
+        <p>
+            Actualmente Soy estudiante de programacion en  la UTN (FRGP) desde inicios de 2023. 
+            Me encuentro en busqueda de mi primera experiencia laboral en el ambito de la Programacion,
+            soy de Buenos Aires, Argentina.
+            Poseo conocimientos en las siguientes tecnologias : 
+        </p>
+        <div class="aptitudes">
+            <div style=" padding-top:12px " >
+                <img src="https://www.jetbrains.com/guide/assets/csharp-logo-265a149e.svg" class="conocimientos" alt="">
+                <img src="https://banner2.cleanpng.com/20180816/yix/kisspng-microsoft-sql-server-computer-icons-database-serve-sql-file-format-symbol-svg-png-icon-free-download-5b7624bb0dee59.4440055115344693070571.jpg" class="conocimientos" alt="">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/800px-ISO_C%2B%2B_Logo.svg.png" class="conocimientos" alt="">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/2048px-.NET_Core_Logo.svg.png" class="conocimientos" alt="">
+            </div>
+        </div>
+        <div>
+            <p> Tambien poseo conocimentos basicos de Html, Css y Js. </p>
+        </div>
+        <h2>Cursos realizados</h2>
+        <ul>
+            <li>Back End C# .NET </li>
+            <li>Programacion en Sql </li>
+            <li>Patrones de diseño en C#. Aplicados a Asp .NET </li>
+            <li>Curso de Programación con C# Nivel 1</li>
+            <li>Curso de Programación con C# Nivel 2: POO + .NET + SQL</li>
+            <li>Curso de Programación con C# Nivel 3: ASP .NET </li>
+           
+        </ul>
+    </section>
+    <section class="boxproyectos" id="boxproyectos">
+        <h2>Proyectos</h2>
+        <div class="parrafosProyecto">
+            <p>En mi  Github podras encontrar los proyectos en los que he estado trabajando. 
+             Asp.Net, Winforms, ejemplos de Api para Asp.net Web, Proyectos de Consola con C++, 
+            </p>
+           
+        </div>
+        <a href="https://github.com/DiegoMartinSantana" target="_blank" > <!-- para que abra en otra ventana--> 
+            <img  src ="https://miro.medium.com/v2/resize:fit:1125/0*N1fmHtI8gmkH_2Vu.png" class="imglogos"  style="background-color: white;" alt="" >
+        </a>
+        <div class="parrafosProyecto">
+            <p>Entre ellos destaco un sistema de gestion de Articulos desarollado en Asp.Net , Sql ( Utilizando consultas de manera directa ) y Boostrapp, actualmente alojado en un Servidor Gratuito. 
+                A traves del cual con permisos de administrador , podra ingresar para gestionar los articulos disponibles, tambien cuenta con :  
+                Sistema de recuperacion de contraseña utilizando una Api externa, posibilidad de filtrar articulos por parametros avanzados , manejo de usuario personal y envio de Emails.</p>
+        </div>
+       
+        <a href="http://articlesystem.somee.com/" target="_blank" > <!-- para que abra en otra ventana--> 
+            <img  src ="https://cdn-icons-png.flaticon.com/512/7655/7655685.png" alt=""  width="150px" height="150px">
+        </a>
+
+  
+</form>
+    </section> 
+    <footer id="boxfooter">
+        <h2>Contacto</h2>
+                <a href="www.linkedin.com/in/diegosantanabackend" target="_blank">
+                    <img src="https://static.vecteezy.com/system/resources/previews/023/986/970/non_2x/linkedin-logo-linkedin-logo-transparent-linkedin-icon-transparent-free-free-png.png" class="imglogos"  alt="">
+                </a>
+                    <p>diego.santana@alumnos.frgp.utn.edu.ar </p>
+                    <p>+(54)9 1157961243</p>
+    <form action="https://formspree.io/f/mvoelwvn" method="POST" style="color: black; margin-top: 2%;"  >
+                    <label>
+                      Your email:
+                      <input type="email" name="email">
+                    </label>
+                    <label>
+                      Your message:
+                      <textarea name="message"></textarea>
+                    </label>
+                    <button type="submit">Send</button>
+                  </form>
+                
+    </footer>
+</body>
+</html>
